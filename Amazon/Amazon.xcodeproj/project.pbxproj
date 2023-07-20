@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18201F152A6642C7003FA361 /* ProductListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18201F142A6642C7003FA361 /* ProductListingViewController.swift */; };
+		18201F172A66451F003FA361 /* ProductDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18201F162A66451F003FA361 /* ProductDetailsTableViewCell.swift */; };
+		18201F192A66596A003FA361 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18201F182A66596A003FA361 /* ProductDetailsViewController.swift */; };
+		18BA3A3A2A65063600939478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A392A65063600939478 /* AppDelegate.swift */; };
+		18BA3A3C2A65063600939478 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A3B2A65063600939478 /* SceneDelegate.swift */; };
+		18BA3A3E2A65063600939478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A3D2A65063600939478 /* ViewController.swift */; };
+		18BA3A412A65063600939478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA3A3F2A65063600939478 /* Main.storyboard */; };
+		18BA3A432A65063800939478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BA3A422A65063800939478 /* Assets.xcassets */; };
+		18BA3A462A65063800939478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA3A442A65063800939478 /* LaunchScreen.storyboard */; };
+		18BA3A512A65063800939478 /* AmazonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A502A65063800939478 /* AmazonTests.swift */; };
+		18BA3A5B2A65063800939478 /* AmazonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A5A2A65063800939478 /* AmazonUITests.swift */; };
+		18BA3A5D2A65063800939478 /* AmazonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A5C2A65063800939478 /* AmazonUITestsLaunchTests.swift */; };
+		18BA3A6A2A6506E000939478 /* EcommerceJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 18BA3A692A6506E000939478 /* EcommerceJson.json */; };
+		18BA3A6D2A650E2300939478 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A6C2A650E2300939478 /* ProductTableViewCell.swift */; };
+		18BA3A702A650FD900939478 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3A6F2A650FD900939478 /* Product.swift */; };
+		18BA3AF12A65859000939478 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA3AF02A65859000939478 /* ProductCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BA3A4D2A65063800939478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BA3A2E2A65063600939478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BA3A352A65063600939478;
+			remoteInfo = Amazon;
+		};
+		18BA3A572A65063800939478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BA3A2E2A65063600939478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BA3A352A65063600939478;
+			remoteInfo = Amazon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18201F142A6642C7003FA361 /* ProductListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListingViewController.swift; sourceTree = "<group>"; };
+		18201F162A66451F003FA361 /* ProductDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		18201F182A66596A003FA361 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		18BA3A362A65063600939478 /* Amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA3A392A65063600939478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BA3A3B2A65063600939478 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18BA3A3D2A65063600939478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BA3A402A65063600939478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BA3A422A65063800939478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BA3A452A65063800939478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BA3A472A65063800939478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA3A4C2A65063800939478 /* AmazonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA3A502A65063800939478 /* AmazonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonTests.swift; sourceTree = "<group>"; };
+		18BA3A562A65063800939478 /* AmazonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA3A5A2A65063800939478 /* AmazonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonUITests.swift; sourceTree = "<group>"; };
+		18BA3A5C2A65063800939478 /* AmazonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18BA3A692A6506E000939478 /* EcommerceJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EcommerceJson.json; sourceTree = "<group>"; };
+		18BA3A6C2A650E2300939478 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		18BA3A6F2A650FD900939478 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		18BA3AF02A65859000939478 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BA3A332A65063600939478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA3A492A65063800939478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA3A532A65063800939478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA3A2D2A65063600939478 = {
+			isa = PBXGroup;
+			children = (
+				18BA3A382A65063600939478 /* Amazon */,
+				18BA3A4F2A65063800939478 /* AmazonTests */,
+				18BA3A592A65063800939478 /* AmazonUITests */,
+				18BA3A372A65063600939478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BA3A372A65063600939478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BA3A362A65063600939478 /* Amazon.app */,
+				18BA3A4C2A65063800939478 /* AmazonTests.xctest */,
+				18BA3A562A65063800939478 /* AmazonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BA3A382A65063600939478 /* Amazon */ = {
+			isa = PBXGroup;
+			children = (
+				18BA3A6E2A650FBE00939478 /* models */,
+				18BA3A6B2A650DF000939478 /* cell */,
+				18BA3A692A6506E000939478 /* EcommerceJson.json */,
+				18BA3A392A65063600939478 /* AppDelegate.swift */,
+				18BA3A3B2A65063600939478 /* SceneDelegate.swift */,
+				18BA3A3D2A65063600939478 /* ViewController.swift */,
+				18BA3A3F2A65063600939478 /* Main.storyboard */,
+				18BA3A422A65063800939478 /* Assets.xcassets */,
+				18BA3A442A65063800939478 /* LaunchScreen.storyboard */,
+				18BA3A472A65063800939478 /* Info.plist */,
+				18201F142A6642C7003FA361 /* ProductListingViewController.swift */,
+				18201F182A66596A003FA361 /* ProductDetailsViewController.swift */,
+			);
+			path = Amazon;
+			sourceTree = "<group>";
+		};
+		18BA3A4F2A65063800939478 /* AmazonTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BA3A502A65063800939478 /* AmazonTests.swift */,
+			);
+			path = AmazonTests;
+			sourceTree = "<group>";
+		};
+		18BA3A592A65063800939478 /* AmazonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BA3A5A2A65063800939478 /* AmazonUITests.swift */,
+				18BA3A5C2A65063800939478 /* AmazonUITestsLaunchTests.swift */,
+			);
+			path = AmazonUITests;
+			sourceTree = "<group>";
+		};
+		18BA3A6B2A650DF000939478 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18BA3A6C2A650E2300939478 /* ProductTableViewCell.swift */,
+				18BA3AF02A65859000939478 /* ProductCollectionViewCell.swift */,
+				18201F162A66451F003FA361 /* ProductDetailsTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		18BA3A6E2A650FBE00939478 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				18BA3A6F2A650FD900939478 /* Product.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BA3A352A65063600939478 /* Amazon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA3A602A65063800939478 /* Build configuration list for PBXNativeTarget "Amazon" */;
+			buildPhases = (
+				18BA3A322A65063600939478 /* Sources */,
+				18BA3A332A65063600939478 /* Frameworks */,
+				18BA3A342A65063600939478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amazon;
+			productName = Amazon;
+			productReference = 18BA3A362A65063600939478 /* Amazon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BA3A4B2A65063800939478 /* AmazonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA3A632A65063800939478 /* Build configuration list for PBXNativeTarget "AmazonTests" */;
+			buildPhases = (
+				18BA3A482A65063800939478 /* Sources */,
+				18BA3A492A65063800939478 /* Frameworks */,
+				18BA3A4A2A65063800939478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BA3A4E2A65063800939478 /* PBXTargetDependency */,
+			);
+			name = AmazonTests;
+			productName = AmazonTests;
+			productReference = 18BA3A4C2A65063800939478 /* AmazonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BA3A552A65063800939478 /* AmazonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA3A662A65063800939478 /* Build configuration list for PBXNativeTarget "AmazonUITests" */;
+			buildPhases = (
+				18BA3A522A65063800939478 /* Sources */,
+				18BA3A532A65063800939478 /* Frameworks */,
+				18BA3A542A65063800939478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BA3A582A65063800939478 /* PBXTargetDependency */,
+			);
+			name = AmazonUITests;
+			productName = AmazonUITests;
+			productReference = 18BA3A562A65063800939478 /* AmazonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BA3A2E2A65063600939478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					18BA3A352A65063600939478 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					18BA3A4B2A65063800939478 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18BA3A352A65063600939478;
+					};
+					18BA3A552A65063800939478 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18BA3A352A65063600939478;
+					};
+				};
+			};
+			buildConfigurationList = 18BA3A312A65063600939478 /* Build configuration list for PBXProject "Amazon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BA3A2D2A65063600939478;
+			productRefGroup = 18BA3A372A65063600939478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BA3A352A65063600939478 /* Amazon */,
+				18BA3A4B2A65063800939478 /* AmazonTests */,
+				18BA3A552A65063800939478 /* AmazonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BA3A342A65063600939478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA3A6A2A6506E000939478 /* EcommerceJson.json in Resources */,
+				18BA3A462A65063800939478 /* LaunchScreen.storyboard in Resources */,
+				18BA3A432A65063800939478 /* Assets.xcassets in Resources */,
+				18BA3A412A65063600939478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA3A4A2A65063800939478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA3A542A65063800939478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BA3A322A65063600939478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA3A702A650FD900939478 /* Product.swift in Sources */,
+				18BA3A3E2A65063600939478 /* ViewController.swift in Sources */,
+				18201F172A66451F003FA361 /* ProductDetailsTableViewCell.swift in Sources */,
+				18BA3A6D2A650E2300939478 /* ProductTableViewCell.swift in Sources */,
+				18BA3A3A2A65063600939478 /* AppDelegate.swift in Sources */,
+				18BA3AF12A65859000939478 /* ProductCollectionViewCell.swift in Sources */,
+				18201F192A66596A003FA361 /* ProductDetailsViewController.swift in Sources */,
+				18BA3A3C2A65063600939478 /* SceneDelegate.swift in Sources */,
+				18201F152A6642C7003FA361 /* ProductListingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA3A482A65063800939478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA3A512A65063800939478 /* AmazonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA3A522A65063800939478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA3A5D2A65063800939478 /* AmazonUITestsLaunchTests.swift in Sources */,
+				18BA3A5B2A65063800939478 /* AmazonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BA3A4E2A65063800939478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BA3A352A65063600939478 /* Amazon */;
+			targetProxy = 18BA3A4D2A65063800939478 /* PBXContainerItemProxy */;
+		};
+		18BA3A582A65063800939478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BA3A352A65063600939478 /* Amazon */;
+			targetProxy = 18BA3A572A65063800939478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BA3A3F2A65063600939478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA3A402A65063600939478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BA3A442A65063800939478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA3A452A65063800939478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BA3A5E2A65063800939478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BA3A5F2A65063800939478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BA3A612A65063800939478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM5RXU2GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amazon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ajith.Amazon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BA3A622A65063800939478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM5RXU2GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amazon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ajith.Amazon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BA3A642A65063800939478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM5RXU2GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ajith.AmazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amazon";
+			};
+			name = Debug;
+		};
+		18BA3A652A65063800939478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM5RXU2GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ajith.AmazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amazon";
+			};
+			name = Release;
+		};
+		18BA3A672A65063800939478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM5RXU2GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ajith.AmazonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Amazon;
+			};
+			name = Debug;
+		};
+		18BA3A682A65063800939478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM5RXU2GQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ajith.AmazonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Amazon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BA3A312A65063600939478 /* Build configuration list for PBXProject "Amazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA3A5E2A65063800939478 /* Debug */,
+				18BA3A5F2A65063800939478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA3A602A65063800939478 /* Build configuration list for PBXNativeTarget "Amazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA3A612A65063800939478 /* Debug */,
+				18BA3A622A65063800939478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA3A632A65063800939478 /* Build configuration list for PBXNativeTarget "AmazonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA3A642A65063800939478 /* Debug */,
+				18BA3A652A65063800939478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA3A662A65063800939478 /* Build configuration list for PBXNativeTarget "AmazonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA3A672A65063800939478 /* Debug */,
+				18BA3A682A65063800939478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BA3A2E2A65063600939478 /* Project object */;
+}
